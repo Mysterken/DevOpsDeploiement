@@ -1,6 +1,6 @@
-# Learn CDKTF
+# Dev Ops Deploiement
 
-This is a project to learn and understand the Cloud Development Kit for Terraform (CDKTF). The project is written in TypeScript and uses AWS as the cloud provider.
+This is a project to deploy a simple EC2 instance using AWS CDKTF.
 
 ## Prerequisites
 
