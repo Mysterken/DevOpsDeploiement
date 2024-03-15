@@ -27,7 +27,7 @@ jobs:
       - name: Generate module and provider bindings
         run: npx cdktf-cli get
 
-      # Remove this step if you don't have any
+      # TODO Ajouter des tests unitaires
 #      - name: Run unit tests
 #        run: yarn test
 

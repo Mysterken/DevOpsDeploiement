@@ -16,18 +16,13 @@ This is a project to deploy a simple EC2 instance using AWS CDKTF.
 
 ## Usage
 
-- To get the CDKTF constructs for your configured providers, run `npm run get`
-- To compile the TypeScript code, run `npm run compile`
-- To synthesize the CDKTF application into Terraform JSON, run `npm run synth`
-- To watch for changes and recompile, run `npm run watch`
-- To run the tests, run `npm run test`
-- To watch for changes and rerun tests, run `npm run test:watch`
-- To upgrade CDKTF and CDKTF CLI to the latest version, run `npm run upgrade`
-- To upgrade CDKTF and CDKTF CLI to the next version, run `npm run upgrade:next`
+- To deploy the stack, run `cdktf deploy`
+- To destroy the stack, run `cdktf destroy`
 
 ## Project Structure
 
 - `main.ts`: This is the entry point of the application. It defines a Terraform stack with an AWS provider, a security group, and an EC2 instance.
+- `.github/workflows`: This directory contains the GitHub Actions workflow file that runs the CDKTF commands in order to deploy the stack to AWS.
 
 ## Contributing
 
