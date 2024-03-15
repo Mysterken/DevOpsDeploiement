@@ -37,6 +37,6 @@ jobs:
           cdktfVersion: 0.20.4
           terraformVersion: 1.7.4
           mode: auto-approve-apply
-          stackName: my-stack
+          stackName: aws_instance
           terraformCloudToken: ${{ secrets.TF_API_TOKEN }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
