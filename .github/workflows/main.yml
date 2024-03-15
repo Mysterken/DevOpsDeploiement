@@ -40,3 +40,5 @@ jobs:
           stackName: aws_instance
           terraformCloudToken: ${{ secrets.TF_API_TOKEN }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          awsAccessKeyId: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          awsSecretAccessKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
